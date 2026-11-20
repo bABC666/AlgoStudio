@@ -1,0 +1,54 @@
+.root { -fx-font-family: "Microsoft YaHei", "Segoe UI", sans-serif; -fx-font-size: 13px; -fx-text-fill: #24334d; }
+.app { -fx-background-color: #f5f7fb; }
+.header { -fx-background-color: white; -fx-padding: 16 24; -fx-border-color: transparent transparent #e3e8f1 transparent; }
+.brand { -fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #2455c7; }
+.title { -fx-font-size: 26px; -fx-font-weight: bold; -fx-text-fill: #182a47; }
+.badge { -fx-background-color: #edf3ff; -fx-background-radius: 6; -fx-padding: 7 12; -fx-text-fill: #315bb0; }
+.sidebar { -fx-background-color: white; -fx-padding: 24 18; -fx-border-color: transparent #e3e8f1 transparent transparent; }
+.eyebrow { -fx-font-weight: bold; -fx-text-fill: #536783; -fx-padding: 8 0 2 0; }
+.nav-active { -fx-background-color: #edf3ff; -fx-background-radius: 6; -fx-padding: 12 16; -fx-text-fill: #2455c7; -fx-max-width: infinity; }
+.body { -fx-text-fill: #344660; -fx-line-spacing: 4; }
+.muted { -fx-text-fill: #718096; -fx-line-spacing: 4; }
+.canvas-card { -fx-background-color: white; -fx-background-radius: 10; -fx-border-color: #dce4f0; -fx-border-radius: 10; -fx-padding: 8 12 12 12; }
+.canvas-title { -fx-text-fill: #536783; -fx-font-size: 22px; -fx-font-weight: bold; }
+.result-card { -fx-background-color: white; -fx-background-radius: 8; -fx-padding: 12 16; -fx-border-color: #e3e8f1; -fx-border-radius: 8; }
+.button { -fx-background-color: white; -fx-border-color: #d7deeb; -fx-border-radius: 5; -fx-background-radius: 5; -fx-padding: 9 18; }
+.button:hover { -fx-background-color: #edf3ff; }
+.button:disabled { -fx-opacity: 0.4; }
+.primary-button { -fx-background-color: #2455c7; -fx-border-color: #2455c7; -fx-text-fill: white; -fx-font-weight: bold; }
+.primary-button:hover { -fx-background-color: #1d49ad; }
+.combo-box { -fx-background-color: white; -fx-border-color: #d7deeb; -fx-border-radius: 5; -fx-background-radius: 5; -fx-padding: 3; }
+.input-card { -fx-background-color: #f5f7fb; -fx-padding: 12; -fx-background-radius: 8; }
+.input-example { -fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: #24334d; }
+.array-text { -fx-font-family: "Consolas", monospace; -fx-font-size: 14px; -fx-text-fill: #536783; }
+.event-label { -fx-font-weight: bold; -fx-text-fill: #2455c7; }
+.metric-value { -fx-font-size: 22px; -fx-font-weight: bold; -fx-text-fill: #24334d; }
+.metric-caption { -fx-font-size: 11px; -fx-text-fill: #718096; }
+.legend-normal { -fx-text-fill: #4975d1; -fx-font-size: 11px; }
+.legend-compare { -fx-text-fill: #d99719; -fx-font-size: 11px; }
+.legend-swap { -fx-text-fill: #0f9493; -fx-font-size: 11px; }
+.legend-pivot { -fx-text-fill: #8b5bd6; -fx-font-size: 11px; }
+.legend-done { -fx-text-fill: #239a6d; -fx-font-size: 11px; }
+.playback-progress > .track { -fx-background-color: #e4eaf4; -fx-background-radius: 3; -fx-background-insets: 0; }
+.playback-progress > .bar { -fx-background-color: #4975d1; -fx-background-radius: 3; -fx-background-insets: 0; -fx-padding: 0; }
+.sidebar-scroll, .sidebar-scroll > .viewport { -fx-background-color: white; -fx-background-insets: 0; -fx-padding: 0; }
+.input-editor { -fx-background-color: white; -fx-border-color: #cdd8eb; -fx-border-radius: 5; -fx-background-radius: 5; -fx-font-family: "Consolas", monospace; -fx-font-size: 13px; }
+.input-editor .content { -fx-background-color: white; -fx-background-radius: 5; }
+.input-editor:invalid { -fx-border-color: #c74848; }
+.input-error { -fx-text-fill: #b53636; -fx-font-size: 12px; -fx-line-spacing: 2; }
+.toggle-button { -fx-background-color: white; -fx-border-color: #d7deeb; -fx-border-radius: 5; -fx-background-radius: 5; -fx-padding: 7 14; }
+.toggle-button:selected { -fx-background-color: #edf3ff; -fx-border-color: #afc4ef; -fx-text-fill: #2455c7; }
+.benchmark-chart { -fx-background-color: white; -fx-background-radius: 8; -fx-padding: 8; }
+.benchmark-chart .chart-bar { -fx-bar-fill: #4975d1; }
+.benchmark-chart .data1.chart-bar { -fx-bar-fill: #0f9493; }
+.table-view { -fx-background-color: white; -fx-border-color: #dce4f0; }
+.graph-sidebar { -fx-padding: 12 14; }
+.legend-discovered { -fx-text-fill: #8b5bd6; -fx-font-size: 11px; }
+.legend-pending { -fx-text-fill: #718096; -fx-font-size: 11px; }
+.pseudo-pane { -fx-background-color: white; }
+.pseudo-pane > .title { -fx-font-size: 13px; -fx-font-weight: bold; -fx-padding: 9 14; }
+.pseudo-content { -fx-padding: 8; -fx-background-color: white; }
+.pseudo-code { -fx-padding: 4; -fx-background-color: white; }
+.pseudo-line { -fx-font-family: "Consolas", "Microsoft YaHei", monospace; -fx-font-size: 12px; -fx-padding: 5 7; -fx-background-color: white; -fx-border-color: transparent; -fx-border-width: 1; }
+.pseudo-line:active { -fx-background-color: #fff2cc; -fx-border-color: #e3b04b; -fx-background-radius: 4; -fx-border-radius: 4; -fx-text-fill: #624614; }
+.visual-canvas-scroll, .visual-canvas-scroll > .viewport { -fx-background-color: white; -fx-background-insets: 0; -fx-padding: 0; }
